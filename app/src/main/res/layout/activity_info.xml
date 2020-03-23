@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/nickname"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Nick Name"
+                >
+            </EditText>
+            <EditText
+                android:id="@+id/country"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Country">
+
+            </EditText>
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Age">
+
+            </EditText>
+            <TextView
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Relation status:"
+                android:textSize="30dp"
+                
+                >
+                
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/single"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Single"
+                android:textSize="30dp">
+
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/relation"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="In a relation"
+                android:textSize="30dp">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/married"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Married"
+                android:textSize="30dp">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/divorced"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Divorced"
+                android:textSize="29dp">
+
+            </CheckBox>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Sex"
+              android:textSize="30dp"
+                >
+
+            </TextView>
+            <CheckBox
+                android:id="@+id/male"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Male"
+                android:textSize="29dp">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/female"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Female"
+                android:textSize="29dp"
+                >
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/other"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Other"
+                android:textSize="29dp">
+
+            </CheckBox>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="You want"
+                android:textSize="30dp"
+                >
+
+            </TextView>
+            <CheckBox
+                android:id="@+id/cmale"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Male"
+                android:textSize="29dp">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/cfemale"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Female"
+                android:textSize="29dp">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/gay"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Gay"
+                android:textSize="29dp">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/lesbian"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Lesbian"
+                android:textSize="29dp">
+
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/transgender"
+                android:layout_width="223dp"
+                android:layout_height="38dp"
+                android:layout_margin="15dp"
+                android:text="Transgender"
+                android:textSize="29dp">
+
+            </CheckBox>
+            <Button
+                android:id="@+id/done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Done"
+                android:shadowColor="@android:color/transparent"
+                android:padding="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/shapesignup"
+                android:textColor="@color/white"/>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profiles">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/propic"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp">
+            </ImageView>
+
+            <EditText
+                android:id="@+id/imageupload"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="35dp"
+                android:text="Tap to upload image"
+
+                android:textSize="15dp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="35dp"></EditText>
+
+            <EditText
+                android:id="@+id/editinfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="35dp"
+                android:text="Edit Info"
+                android:textStyle="bold"></EditText>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

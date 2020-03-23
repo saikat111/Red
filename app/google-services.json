@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "335349824404",
+    "firebase_url": "https://redlove.firebaseio.com",
+    "project_id": "redlove",
+    "storage_bucket": "redlove.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335349824404:android:f0ecc3e5be184188af2d81",
+        "android_client_info": {
+          "package_name": "com.example.red"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335349824404-ff0tmh0aveqa05dhfvgr7l2nvptb5ug9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG0U2E_Hzdkg8ZQOigjgK0bmLDA1r6uRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335349824404-ff0tmh0aveqa05dhfvgr7l2nvptb5ug9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
